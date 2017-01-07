@@ -1,1 +1,2 @@
-Boiler Plate react App
+# Pokedex
+A react pokedex learning exercise

@@ -1,17 +1,16 @@
-/* @flow */
-var React = require( "react" );
+import React from 'react';
+import pokeapp from './pokedex.jsx';
 
 var Main = (props) => {
-  return (
+    return (
     <div>
       <div className="">
-        <div className="">
           <p> Main.jsx rendered </p>
+          <pokeapp/>
           {props.children}
         </div>
-      </div>
     </div>
-  )
+  );
 };
 
 module.exports = Main;
